@@ -1,0 +1,51 @@
+.card {
+  background-color: #212121;
+  color: white;
+  height: 80%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  height: 48px;
+  background-color: white;
+  color: #212121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header-left {
+  margin-left: 10px;
+}
+
+.card-header-right {
+  margin-right: 10px;
+  -webkit-transition: padding-bottom 1s;
+  transition: padding-bottom 0.5s;
+  cursor: pointer;
+}
+/* .card-header-right:hover {
+  padding-bottom: 50px;
+} */
+
+.email-icon {
+  color: #d14836;
+}
+
+.linkedin-icon {
+  color: #0077B5;
+}
+
+.github-icon {
+  color: #A3069B;
+}
+
+.card-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row nowrap;
+}
+

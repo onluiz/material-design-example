@@ -1,0 +1,23 @@
+.sections-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.section {
+  height: 100%;
+  width: 100%;
+  background-color: #E2E0E0;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
